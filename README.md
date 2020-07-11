@@ -1,4 +1,4 @@
-#Mega Man XCI Game
+# Mega Man XCI Game
 
 So far I have done the Title screen:
 
