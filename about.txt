@@ -1,3 +1,4 @@
 # XCI Controls File Template
-Place about statement here.
+Sample Mega Man XCI game by Ben Sturgess
+This game is for learning purposes only
         click to close Help
