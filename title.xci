@@ -1,0 +1,96 @@
+# XCI Title Screen File Template
+
+duration 1800 # End immediately, go to menu
+
+# Uncomment below when/if you have title screen bitmap and/or music
+bitmap bitmap.data
+music mega.vgm
+
+
+
+# Start animation here
+sprite_frames 1 0 2 #standing Upper
+sprite 1 30 176
+sprite_frames 2 0 3 #standing Lower
+sprite 2 30 191
+
+wait 20
+sprite_hide 1
+sprite_hide 2
+
+sprite_frames 3 0 4 1 1 #Running 1 Upper
+sprite_frames 4 0 5 1 1 #Running 1 Lower
+sprite 3 30 179
+sprite 4 36 184 #Run 1 Lower is slightly to the right which is why I have defined 2 separate sprites for run 1 and run 2
+
+sprite_frames 5 0 1 6 1 #Running 2 Upper
+sprite_frames 6 0 1 7 1 #Running 2 Lower
+sprite 5 30 179
+sprite 6 30 194
+
+sprite_frames 7 0 1 1 8 #Running 3 Upper
+sprite_frames 8 0 1 1 9 #Running 3 Lower
+sprite 7 30 179
+sprite 8 28 192
+
+sprite_move 3 8 68 3 0 
+sprite_move 4 8 68 3 0 
+sprite_move 5 8 68 3 0 
+sprite_move 6 8 68 3 0 
+sprite_move 7 8 68 3 0 
+sprite_move 8 8 68 3 0 
+
+
+#wait for animation to finish
+wait 190
+
+#Hide running sprites and display standing sprites
+sprite_hide 3
+sprite_hide 4
+sprite_hide 5
+sprite_hide 6
+sprite_hide 7
+sprite_hide 8
+
+sprite 1 102 176
+sprite 2 102 191
+
+wait 20
+sprite_hide 1
+sprite_hide 2
+
+sprite_frames 9 0 10 10H
+sprite_frames 10 0 11 11H
+sprite 9 102 176
+sprite 10 102 191
+
+sprite_move 9 8 33 0 -3
+sprite_move 10 8 33 0 -3
+
+
+wait 250
+sprite_hide 9
+sprite_hide 10
+sprite 1 102 71
+sprite 2 102 86
+
+wait 20
+sprite_hide 1
+sprite_hide 2
+sprite_frames 11 0 12
+sprite_frames 12 0 13
+sprite_frames 13 0 14
+sprite 11 100 71
+sprite 12 105 71
+sprite 13 105 87
+
+sprite_move 11 1 15 0 -1
+sprite_move 12 1 15 0 -1
+sprite_move 13 1 15 0 -1
+wait 20
+sprite_move 11 2 3 0 1
+sprite_move 12 2 3 0 1
+sprite_move 13 2 3 0 1
+
+tiles 0  15 4  3 77 69 71 65 32 77 65 78 3
+tiles 11  23 29  32 98 121 32 66 101 110 32 83 116 117 114 103 101 115 115 32 # byline
