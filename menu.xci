@@ -42,11 +42,10 @@ text3_bg 0
 text3_fg 14 # light blue
 
 # Toolbar definition
-tb_dim 4 4
+tb_dim 24 4
 tool inventory
-tool_tiles 5H 6 6 9 7 20 20H 8H 7 21 21H 8H 10 11 11 12H
+tool_tiles 5H 6 6 9 7 20 20H 8H 7 21 21H 8H 5HV 11 11 12H
 
-# Below tools may be added
 #tool walk
 #tool_tiles # add tiles
 
@@ -60,7 +59,7 @@ tool_tiles 9H 6 6 9 8 23 24 8H 8 25 26 8H 12 11 11 12H
 tool talk
 tool_tiles 9H 6 6 9 8 27 28 8H 8 29 30 8H 12 11 11 12H
 tool strike
-tool_tiles 9H 6 6 9 8 31 127 8H 8 128 129 8H 12 11 11 12H
+tool_tiles 9H 6 6 5 8 31 127 8H 8 128 129 8H 12 11 11 5V
 #tool pin
 #tool_tiles # add pin out tiles
 #tool_tiles # add pin in tiles
