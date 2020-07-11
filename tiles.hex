@@ -1197,22 +1197,612 @@ ff888888
 # Remaining tiles can be modified and added to (up to Tile 719) as you wish
 
 
-# Tile 127:
+# Tile 127: Strike, upper right
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+99999fff
+998889ff
+88999fff
+889889ff
+
+# Tile 128: Strike, lower left
+ff888889
+ff888888
+ff888888
+ff999998
+fffffff9
+ffffffff
+ffffffff
+ffffffff
+
+# Tile 129: Strike, lower right
+98999fff
+989889ff
+89999fff
+89889fff
+9999ffff
+ffffffff
+ffffffff
+ffffffff
+
+# Tile 130: Pin out, top
+fff22222
+ffff2222
+fffff222
+fffff222
+fffff222
+fffff222
+fffff222
+fffff222
+
+# Tile 131: Pin out, bottom
+ffff2222
+f2222222
+fffffffc
+fffffffc
+fffffffc
+fffffffc
+fffffffc
+fffffffc
+
+# Tile 132: Pin in, top
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+fff22222
+ffff2222
+
+# Tile 133: Pin in, bottom
+fffff222
+fffff222
+fffff222
+fffff222
+fffff222
+fffff222
+ffff2222
+f2222222
+
+# Tile 134: Inventory left margin
+fffffffc
+fffffffc
+fffffffc
+fffffffc
+fffffffc
+fffffffc
+fffffffc
+fffffffc
+
+# Tile 135: Inventory right margin (solid light gray square)
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+
+# Tile 136: Inventory scroll button
+fffccfff
+fffccfff
+ffccccff
+ffccccff
+fccccccf
+fccccccf
+cccccccc
+cccccccc
+
+# Tile 137: Money UL/LR
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+dddddd0d
+d5555000
+d5550505
+d5555000
+
+# Tile 138: Money UR/LL
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+d0dddddd
+0000555d
+5055555d
+5055555d
+
+# Tile 139: Keys UL
+fffffff8
+ffffff8f
+fffbb8bf
+ffbbf8bb
+fbbbbbbb
+fbbbbbbb
+fbbbbbbb
+ffbbbbbb
+
+# Tile 140: Keys UR
+8fffffff
+f8ffffff
+ff8fffff
+ff8fffff
+b8ffffff
+b7ffffff
+b7ffffff
+77ffffff
+
+# Tile 141: Keys LL
+fffbbbb7
+ffffccff
+ffffbcff
+ffffccff
+ffffbcff
+ffffccff
+fffffcff
+ffffffff
+
+# Tile 142: Keys LR
+777fffff
+f877ffff
+ff877fff
+fff877ff
+ffffffff
+ffffffff
+ffffffff
+ffffffff
+
+# Tile 143: Phone
+ffffffff
+fffffccc
+ffffcbbb
+ffffcbbb
+f6ffcbbb
+6fffcbbb
+6f6fcbbb
+6f6fcbbb
+
+# Tile 144: Laptop top
+ffffffff
+ffffffff
+ffcccccc
+ffcbbbbb
+ffcbbbbb
+ffcbbbbb
+ffcbbbbb
+ffcbbbbb
+
+# Tile 145: Laptop bottom
+ffcbbbbb
+ffcccccc
+fcfcfcfc
+fccfcfcc
+ccccccff
+ccccccff
+cccccccc
+ffffffff
+
+# Tile 146: Banana top
+ffffffff
+ffffffff
+fffff99f
+fffff9ff
+fffffdff
+ffff77ff
+ffff778f
+fff7778f
+
+# Tile 147: Banana LL
+ffffffff
+ffffffff
+fffffff7
+f9777777
+ff877777
+fff88777
+fffff888
+ffffffff
+
+# Tile 148: Banana LR
+ff77778f
+f77778ff
+777778ff
+77778fff
+7788ffff
+88ffffff
+ffffffff
+ffffffff
+
+# Tile 149: Coffee top
+ffffffff
+ffffffff
+ffff1111
+fff11111
+ffff9999
+ffff1115
+ffff1155
+ffff1155
+
+# Tile 150: Coffee bottom
+ffff9999
+fffff999
+fffff999
+fffff111
+fffff111
+fffff111
+ffffffff
+ffffffff
+
+# Tile 151: Screwdriver top
+ffffffff
+f22fffff
+f2222fff
+ff2222ff
+ff22222f
+fff22222
+ffff222f
+fffff2fc
+
+# Tile 152: Screwdriver bottom
+cfffffff
+fcffffff
+ffcfffff
+fffcffff
+ffffcfff
+fffffcff
+ffffffff
+ffffffff
+
+# Tile 153: Grail top
+ffffffff
+ff888888
+fff77777
+fff72727
+fff77777
+ffff7777
+ffffff77
+fffffff8
+
+# Tile 154: Grail bottom
+fffffff7
+fffffff7
+fffffff7
+fffffff7
+fffffff7
+ffffff88
+ffff7777
+ffffffff
+
+# Tile 155: Thumbdrive top
+ffffffff
+ffffffcc
+ffffffcc
+ffffffcc
+fffff222
+fffff222
+fffff222
+fffff222
+
+# Tile 156: Thumbdrive bottom
+fffff222
+fffff222
+fffff222
+fffff222
+fffffbbb
+fffffbbf
+ffffffbb
+ffffffff
+
+# Tile 157: Menu checkbox - checked
+66666666
+61111116
+61666616
+61611616
+61611616
+61666616
+61111116
+66666666
+
+# Tile 158: Menu checkbox - cleared
+66666666
+61111116
+61666616
+61666616
+61666616
+61666616
+61111116
+66666666
+
+# Tile 159: Text box corner
 00000000
 00000000
 00000000
 00000000
+00000011
+00000166
+00001666
+00001666
+
+# Tile 160: Text box top/bottom
+00000000
+00000000
+00000000
+00000000
+11111111
+66666666
+66666666
+66666666
+
+# Tile 161: Text box left/right side
+00001666
+00001666
+00001666
+00001666
+00001666
+00001666
+00001666
+00001666
+
+# Tile 162: Coffee maker upper left
+00000000
+00ffffff
+00fccccc
+00fccccc
+00fccccc
+00fccccc
+00fccbbb
+00fccccc
+
+# Tile 163: Coffee maker upper right
+00000000
+fffff000
+ccccc200
+ccccc200
+ccccc000
+ccccc000
+bbbbbbb0
+cccc00b0
+
+# Tile 164: Coffee maker middle left - empty
+00fcc0bb
+00fcc00b
+00fcc000
+00fcc0bb
+00fcc001
+00fcc010
+00fcc100
+00fcc100
+
+# Tile 165: Coffee maker middle right - empty
+bbbb00b0
+bbb00000
+00000000
+bbbbbb00
+00100bb0
+000100b0
+000010b0
+00001000
+
+# Tile 166: Coffee maker lower left
+00fcc011
+0cfccccc
+c0fccccc
+c0ffffff
 00000000
 00000000
 00000000
 00000000
 
-# Tile 128:
+# Tile 167: Coffee maker lower right
+11110000
+ccccc000
+cccccf00
+ffffff00
 00000000
 00000000
 00000000
 00000000
+
+# Tile 168: Coffee maker middle left - full
+00fcc0bb
+00fcc00b
+00fcc000
+00fcc0bb
+00fcc001
+00fcc019
+00fcc199
+00fcc199
+
+# Tile 169: Coffee maker middle right - full
+bbbb00b0
+bbb00000
+00000000
+bbbbbb00
+99100bb0
+999100b0
+999910b0
+99991000
+
+# Tile 170: Coffee cup top
+00000000
+00000000
+99999999
+11155111
+11555511
+11555511
+99999999
+09999990
+
+# Tile 171: Coffee cup bottom
+09999990
+01111110
+01111110
+01111110
 00000000
 00000000
 00000000
 00000000
+
+# Tile 172: Bananas upper left
+00000000
+00000000
+00000000
+00000000
+09777777
+00877777
+00088777
+00000888
+
+# Tile 173: Bananas upper right
+00000090
+00077dd0
+00778770
+77778778
+77787778
+77877778
+88777780
+77777780
+
+# Tile 174: Bananas lower left
+00977777
+00087777
+00008877
+00000088
+00000000
+00000000
+00000000
+00000000
+
+# Tile 175: Bananas lower right
+77777800
+77788000
+78800000
+80000000
+00000000
+00000000
+00000000
+00000000
+
+# Tile 176: Laptop upper corner
+00000000
+00000000
+000ccccc
+000cbbbb
+000cbbbb
+000cbbbb
+000cbbbb
+000cbbbb
+
+# Tile 177: Laptop top screen
+00000000
+00000000
+cccccccc
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+
+# Tile 178: Laptop side screen
+000cbbbb
+000cbbbb
+000cbbbb
+000cbbbb
+000cbbbb
+000cbbbb
+000cbbbb
+000cbbbb
+
+# Tile 179: Dark gray (index 11) square
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+
+# Tile 180: Laptop keyboard side
+000ccccc
+000cfcfc
+00cfcfcf
+00ccfcfc
+0ccccccc
+0ccccccc
+cccccccc
+cccccccc
+
+# Tile 181: Laptop keyboard middle
+cccccccc
+fcfccfcf
+cfcffcfc
+fcfccfcf
+cccccccc
+cffffffc
+cffffffc
+cccccccc
+
+# Tile 182: Laptop keyboard w/ thumbdrive
+ccccc000
+cfcfc000
+fcfcfc22
+cfcfcc00
+ccccccc0
+ccccccc0
+cccccccc
+cccccccc
+
+# Tile 183: Thumbdrive
+00000000
+00000000
+000c0000
+00020000
+00020000
+00000000
+00000000
+00000000
+
+# Tile 184: MM Run Up right
+e0000000
+66000000
+ee600000
+6aa00000
+aba00000
+aba00000
+aaa00666
+ba000666
+
+# Tile 185: MM Run Up left
+000000ee
+00006666
+00066666
+00666aaa
+0e66aabb
+0e6aaabb
+e06aaaaa
+eee6abbb
+
+# Tile 186: MM Run Lower right
+aeee6660
+0ee66600
+00e66000
+00000000
+00000000
+60000000
+60000000
+66600000
+
+# Tile 187: MM Run Lower left
+6eeeaaaa
+66eeeeee
+666666e0
+0066ee00
+6e06eee0
+6eee0ee6
+6ee00066
+00000666
