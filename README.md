@@ -1,3 +1,14 @@
+#Mega Man XCI Game
+
+So far I have done the Title screen:
+
+![titlescreen](titlescreen.gif)
+
+Sprites I have created so far are here:
+
+https://docs.google.com/spreadsheets/d/1gShJWQJNzVwIp1zPz2AHOdBUImR5i44ij1x2RTEHBr4/edit?usp=sharing
+
+
 # XCI Game Template
 
 The files in this directory a minimal "game" that can be built and run with XCI. It is a good starting point when creating a game "from scratch", rather than modifying the [example game](../example).
